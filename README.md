@@ -12,8 +12,9 @@ and as a downloadable PDF report.
 
 > BSc graduation project, Computer Engineering, Karabük University (2024–2025), by
 > **Talha Çağrı Terzioğlu** and **Mehmet Emre Kesekoğlu**, supervised by Asst. Prof. Nesrin Aydın Atasoy.
-> After graduation this repository was refactored from the original Colab notebook into a tested package
-> (see [What changed after the thesis](#what-changed-after-the-thesis)).
+> Since graduation the repository is maintained by Talha Çağrı Terzioğlu, who refactored the original
+> Colab notebook into a tested package (see [Authors](#authors) and
+> [What changed after the thesis](#what-changed-after-the-thesis)).
 
 ![Gradio UI](docs/figures/gradio_ui.png)
 
@@ -138,6 +139,16 @@ Fixing them was the main work of the refactor:
 - **Binary, not age-banded:** the output is "suitable / needs review", not an age range.
 - **Lexicon and theme lists are hand-made** and incomplete. They explain a decision; they do not make it.
 - The 3 % book threshold was set by hand and has not been validated against human ratings.
+
+## Authors
+
+| | Thesis prototype (2024–2025) | Refactor and maintenance (2026–) |
+|---|:---:|:---:|
+| Talha Çağrı Terzioğlu | ✓ | ✓ |
+| Mehmet Emre Kesekoğlu | ✓ | |
+
+The archived notebook in [`notebooks/`](notebooks/) is the joint thesis work. The refactored package
+(`src/`, `scripts/`, `tests/`, `app.py`) and all later changes are by Talha Çağrı Terzioğlu (see the commit history).
 
 ## Acknowledgements
 

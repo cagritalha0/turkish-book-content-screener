@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Archived thesis notebook: keep it out of GitHub's language statistics
+notebooks/*.ipynb linguist-documentation
