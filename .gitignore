@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Data and models are not versioned - see data/README.md
+data/raw/
+models/
+*.safetensors
+*.bin
+*.cbm
+*.h5
+*.pkl
+checkpoints/
+wandb/
+
+# Books are copyrighted - never commit them
+*.pdf
+!docs/**/*.pdf
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

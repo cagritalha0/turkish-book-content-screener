@@ -1,0 +1,4 @@
+# Full environment for training + the Gradio app. For a lighter install use:
+#   pip install -e ".[app]"      (run the demo)
+#   pip install -e ".[train]"    (reproduce training)
+-e .[train,app]
