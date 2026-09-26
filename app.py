@@ -51,7 +51,7 @@ def build_app(analyzer: BookAnalyzer) -> gr.Blocks:
         pdf = pdf_report(report, path.name, out_dir)
         return summary, examples, str(chart), str(pdf)
 
-    with gr.Blocks(title="Turkish Book Content Screener", theme=gr.themes.Soft()) as demo:
+    with gr.Blocks(title="Turkish Book Content Screener") as demo:
         gr.Markdown(
             "## 📚 Turkish Book Content Screener\n"
             "Upload a book to check whether it may contain content unsuitable for children."
