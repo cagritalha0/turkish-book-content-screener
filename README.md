@@ -11,7 +11,7 @@ profanity, crime) and adds an **Ateşman readability** score. You get the result
 and as a downloadable PDF report.
 
 > BSc graduation project, Computer Engineering, Karabük University (2024–2025), by
-> **Talha Çağrı Terzioğlu** and **Mehmet Emre Kesekoğlu**, supervised by Asst. Prof. Nesrin Aydın Atasoy.
+> **[Talha Çağrı Terzioğlu](https://github.com/cagritalha0)** and **[Mehmet Emre Kesekoğlu](https://github.com/kesekoglu)**, supervised by Asst. Prof. Nesrin Aydın Atasoy.
 > Since graduation the repository is maintained by Talha Çağrı Terzioğlu, who refactored the original
 > Colab notebook into a tested package (see [Authors](#authors) and
 > [What changed after the thesis](#what-changed-after-the-thesis)).
@@ -144,8 +144,8 @@ Fixing them was the main work of the refactor:
 
 | | Thesis prototype (2024–2025) | Refactor and maintenance (2026–) |
 |---|:---:|:---:|
-| Talha Çağrı Terzioğlu | ✓ | ✓ |
-| Mehmet Emre Kesekoğlu | ✓ | |
+| [Talha Çağrı Terzioğlu](https://github.com/cagritalha0) | ✓ | ✓ |
+| [Mehmet Emre Kesekoğlu](https://github.com/kesekoglu) | ✓ | |
 
 The archived notebook in [`notebooks/`](notebooks/) is the joint thesis work. The refactored package
 (`src/`, `scripts/`, `tests/`, `app.py`) and all later changes are by Talha Çağrı Terzioğlu (see the commit history).
